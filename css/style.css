@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 200px;
+    background-color: #CCCCFF;
+    padding: 50px 0px;
+    border-radius: 8px;
+}
+.start{
+    text-align: center;
+}
+.btn{
+    font-size: larger;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.question_card{
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.question{
+    padding-bottom: 20px;
+}
+.answer{
+    background-color: white;
+    border: 1px black solid;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: left;
+}
+.next_btn{
+    width: 40%;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.score{
+    text-align: center;
+    display: none;
+}
